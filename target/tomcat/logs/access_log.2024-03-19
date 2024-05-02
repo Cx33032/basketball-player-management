@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:36:09 -0400] "GET /dataservlet HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:36:13 -0400] "GET /playerlookup/ HTTP/1.1" 200 1663 http-bio-8080-exec-2 27
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:36:13 -0400] "GET /playerlookup/basic.css HTTP/1.1" 200 594 http-bio-8080-exec-4 14
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:36:13 -0400] "GET /playerlookup/operation/pics/ball-net-basketball-game-arena.webp HTTP/1.1" 200 75956 http-bio-8080-exec-3 31
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:36:15 -0400] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-6 0
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:36:16 -0400] "GET /playerlookup/operation/search.html HTTP/1.1" 304 - http-bio-8080-exec-7 7
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:36:16 -0400] "GET /playerlookup/operation/search_basic.css HTTP/1.1" 200 1765 http-bio-8080-exec-8 5
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:36:16 -0400] "GET /playerlookup/operation/js/search.js HTTP/1.1" 200 3864 http-bio-8080-exec-5 6
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:36:22 -0400] "POST /playerlookup/operation/submit-search HTTP/1.1" 404 1027 http-bio-8080-exec-10 907
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:37:17 -0400] "GET /playerlookup/operation/search.html HTTP/1.1" 304 - http-bio-8080-exec-1 4
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:37:21 -0400] "GET /playerlookup/operation/register.html HTTP/1.1" 200 2175 http-bio-8080-exec-1 6
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:37:21 -0400] "GET /playerlookup/operation/register_basic.css HTTP/1.1" 200 1769 http-bio-8080-exec-1 5
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:37:25 -0400] "POST /playerlookup/operation/submit-search HTTP/1.1" 404 1027 http-bio-8080-exec-1 45
+0:0:0:0:0:0:0:1 - - [19/Mar/2024:20:38:26 -0400] "POST /playerlookup/operation/submit-search HTTP/1.1" 200 - http-bio-8080-exec-8 33

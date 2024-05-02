@@ -1,0 +1,48 @@
+body {
+    background-color: #34495e;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #191919;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:inline-block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+
+li a:hover {
+    background-color: #2ecc71;
+}
+
+h1 {
+    text-align: center;
+    color: #2ecc71;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+img {
+    display: block;
+    max-width: 750px;
+    max-height: 750px;
+    margin: 0 auto;
+}
+
+li .home-btn {
+    background-color: #66ccff;
+}

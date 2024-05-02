@@ -1,0 +1,90 @@
+body {
+    background: #34495e;
+}
+
+.register-box {
+    border-radius: 10px;
+    width: 380px;
+    position: absolute;
+    padding: 50px;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: #191919;
+}
+
+label {
+    cursor: text;
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: right;
+    width: 150px;
+    vertical-align: top;
+    transform: translateX(-30px);
+    color: white;
+    font-family: sans-serif;
+}
+
+.register-box h1 {
+    font-weight: 500;
+    color: #2ecc71;
+    text-transform: capitalize;
+}
+
+.register-box input[type="text"],.register-box input[type="number"],.register-box input[type="email"]{
+    transform: translateX(-30px);
+    border-radius: 8px;
+    text-align: left;
+    padding: 7px 12px;
+    width: 150px;
+    margin: auto;
+    background: white;
+    border: 3px solid #3498db;
+}
+
+.register-box input[type="submit"] { /*提交按钮的样式*/
+    border-radius: 24px;
+    border: 2px solid #2ecc71;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 30px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.register-box input[type="submit"]:hover { /*当鼠标移动到提交按钮上时的样式*/
+    background: #2ecc71;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #191919;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:inline-block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+
+li a:hover {
+    background-color: #2ecc71;
+}
+
+li .register-btn {
+    background-color: #66ccff;
+}

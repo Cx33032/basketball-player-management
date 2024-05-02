@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="register_basic.css">
+    </head>
+    <body>
+        <ul>
+            <!-- Home Page -->
+            <li><a class="home-btn" href="../index.html">Home</a></li>
+
+            <!-- Search Player Menu-->
+            <li><a class="search-btn" href="./search.html">Search</a></li>
+
+            <!-- Register Player Menu-->
+            <li><a class="register-btn" href="./register.html">Register</a></li>
+
+            <!-- Modify Player Menu-->
+            <li><a class="modify-btn" href="./modify.html">Modify</a></li>
+
+            <!-- Delete Player Menu-->
+            <li><a class="delete-btn" href="./delete.html">Delete</a></li>
+        </ul>
+
+        <form action="add" method="post" class="register-box">
+            <h1>Player Register</h1>
+            <p>
+                <label for="rank">Ranking:</label>
+                <input type="number" name="rank" placeholder="" min="1" max="1000" required="" />
+            </p>
+            <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="first_name" placeholder="" required="required" />
+            </p>
+            <p>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="last_name" placeholder="" required="required" />
+            </p>
+            <p>
+                <label for="age">Age:</label>
+                <input type="number" name="age" placeholder="" min="10" max="100" required="required" />
+            </p>
+            <p>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="text" name="phone_number" placeholder="" required="required" />
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="" required="required" />
+            </p>
+            <p>
+                <label for="Positon">Positon:</label>
+                <input type="text" name="position" placeholder="" required="required" />
+            </p>
+            <input type="submit" name="" value="Add" required="required" />
+        </form>
+    </body>
+</html>

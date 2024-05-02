@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="search_basic.css">
+        <script type="text/javascript" src="./js/search.js"></script>
+    </head>
+    <body>
+        <ul>
+            <!-- Home Page -->
+            <li><a class="home-btn" href="../index.html">Home</a></li>
+
+            <!-- Search Player Menu-->
+            <li><a class="search-btn" href="./search.html">Search</a></li>
+    
+            <!-- Register Player Menu-->
+            <li><a class="register-btn" href="./register.html">Register</a></li>
+    
+            <!-- Modify Player Menu-->
+            <li><a class="modify-btn" href="./modify.html">Modify</a></li>
+    
+            <!-- Delete Player Menu-->
+            <li><a class="delete-btn" href="./delete.html">Delete</a></li>
+        </ul>
+
+        <form action="submit-search" class="search-box" method="post">
+            <h1>Search</h1>
+            <p>
+                <label>Keywords to Search: </label>
+                <select id="search-mth" onchange="changeValue()" name="search-mth">
+                    <option value="select">--- Method ---</option>
+                    <option value="rank">Rank</option>
+                    <option value="name">Name</option>
+                    <option value="age">Age Range</option>
+                    <option value="phone-num">Phone Number</option>
+                    <option value="email">Email</option>
+                    <option value="position">Position</option>
+                </select>
+            </p>
+            
+            <!-- TODO-List: -->
+            <!-- Finish the remaining part of this page -->
+            <!-- Finish the remaining part of java in showing other information -->
+            <!-- No need to make selections for ranking and the age (only input for those two) -->
+
+            <p id="mth-rank" style="display:none;">
+                <label for="rank">Rank:</label>
+                <input id="rank-input" type="number" name="rank" placeholder="" min="1" max="1000" />
+            </p>
+
+            <p id="mth-name" style="display:none;">
+                <label>Name: </label>
+                <select id="name-search" name="player-name">
+                    <option value="select">--Name--</option>
+                </select>
+            </p>
+
+            <div id="mth-age" style="display:none;">
+                <p>
+                    <label for="min-age">Minimum Age:</label>
+                    <input type="number" id="min-age-in" name="min-age" placeholder="" min="10" max="100" />
+                </p>
+                <p>
+                    <label for="max-age">Maximum Age:</label>
+                    <input type="number" id="max-age-in" name="max-age" placeholder="" min="11" max="100" />
+                </p>
+            </div>
+    
+            <p id="mth-phone-num" style="display:none;">
+                <label>Phone Number: </label>
+                <select id="phone-num-search" name="player-phone">
+                    <option value="select">--Phone Number--</option>
+                </select>
+            </p>
+    
+            <p id="mth-email" style="display:none;">
+                <label>Email: </label>
+                <select id="email-search" name="player-email">
+                    <option value="select">--Email--</option>
+                </select>
+            </p>
+    
+            <p id="mth-position" style="display:none;">
+                <label>Position: </label>
+                <select id="position-search" name="player-position">
+                    <option value="select">--Position--</option>
+                </select>
+            </p>
+
+            <input type="submit" value="Search" id="submit-btn" required="required" style="display:none;" />
+        </form>
+
+
+    </body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    background: #34495e;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #191919;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:inline-block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+
+li a:hover {
+    background-color: #2ecc71;
+}
+
+li .search-btn {
+    background-color: #66ccff;
+}
+
+.search-box {
+    border-radius: 10px;
+    width: 430px;
+    position: absolute;
+    padding: 50px;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: #191919;
+}
+
+.search-box h1{
+    font-weight: 500;
+    color: #2ecc71;
+    text-transform: capitalize;
+}
+
+label {
+    cursor: text;
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: right;
+    width: 180px;
+    vertical-align: top;
+    transform: translateX(-30px);
+    color: white;
+    font-family: sans-serif;
+}
+
+select{
+    background: white;
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    border: 3px #3498db solid;
+    border-radius: 5px;
+}
+
+.search-box input[type="submit"]{
+    border-radius: 24px;
+    border: 2px solid #2ecc71;
+    background: none;
+    display: block;
+    margin: 23px auto;
+    text-align: center;
+    padding: 14px 30px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.search-box input[type="submit"]:hover{
+    background: #2ecc71;
+}
+
+.search-box input[type="text"],.search-box input[type="number"] {
+    border-radius: 5px;
+    /* padding: 7px 12px; */
+    width: 160px;
+    height: 40px;
+    margin: auto;
+    background: white;
+    border: 3px solid #3498db;
+}

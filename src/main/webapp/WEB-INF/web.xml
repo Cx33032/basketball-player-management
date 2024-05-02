@@ -1,0 +1,89 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <!-- Search Lists -->
+  <!-- By Name -->
+  <servlet>
+    <servlet-name>ReadAllName</servlet-name>
+    <servlet-class>com.player.search.NameList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ReadAllName</servlet-name>
+    <url-pattern>/operation/get-name</url-pattern>
+  </servlet-mapping>
+
+  <!-- By Phone Number -->
+  <servlet>
+    <servlet-name>ReadAllPhoneNumber</servlet-name>
+    <servlet-class>com.player.search.PhoneNumberList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ReadAllPhoneNumber</servlet-name>
+    <url-pattern>/operation/get-phone-num</url-pattern>
+  </servlet-mapping>
+
+  <!-- By Email -->
+  <servlet>
+    <servlet-name>ReadAllEmail</servlet-name>
+    <servlet-class>com.player.search.EmailList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ReadAllEmail</servlet-name>
+    <url-pattern>/operation/get-email</url-pattern>
+  </servlet-mapping>
+
+  <!-- By Position -->
+  <servlet>
+    <servlet-name>ReadAllPosition</servlet-name>
+    <servlet-class>com.player.search.PositionList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ReadAllPosition</servlet-name>
+    <url-pattern>/operation/get-position</url-pattern>
+  </servlet-mapping>
+
+  <!-- Execute the Query -->
+  <servlet>
+    <servlet-name>QueryPlayer</servlet-name>
+    <servlet-class>com.player.QueryPlayer</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>QueryPlayer</servlet-name>
+    <url-pattern>/operation/submit-search</url-pattern>
+  </servlet-mapping>
+
+  <!-- List Query Result -->
+  <servlet>
+    <servlet-name>ListQuery</servlet-name>
+    <servlet-class>com.player.search.QueryList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ListQuery</servlet-name>
+    <url-pattern>/operation/get-search-result</url-pattern>
+  </servlet-mapping>
+
+  <!-- Register -->
+  <servlet>
+    <servlet-name>RegisterPlayer</servlet-name>
+    <servlet-class>com.player.RegisterPlayer</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RegisterPlayer</servlet-name>
+    <url-pattern>/operation/add</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
