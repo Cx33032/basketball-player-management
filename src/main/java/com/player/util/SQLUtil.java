@@ -11,7 +11,7 @@ public class SQLUtil{
             
             String mysqlUrl = "jdbc:mysql://localhost:3306/players?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
             String mysqlUser = "root";
-            String mysqlPassword = "070326king";
+            String mysqlPassword = "YOUR-SQL-PASSWORD";
             return DriverManager.getConnection(mysqlUrl, mysqlUser, mysqlPassword);
         } 
         catch (ClassNotFoundException e) {
